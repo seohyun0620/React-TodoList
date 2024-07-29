@@ -1,0 +1,19 @@
+.label{
+  height: 4vw;
+}
+.input{
+  width: 30vw;
+  height: 100%;
+  padding: 0px 15px;
+  border:2px solid rgb(212, 212, 212);
+  border-radius: 10px;
+}
+.submitBtn{
+  width: 6vw;
+  height: 100%;
+  margin-left: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #67a71a;
+  color: white;
+}
