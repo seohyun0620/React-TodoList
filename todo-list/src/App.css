@@ -9,4 +9,10 @@
   display: flex;
   flex-direction: column;
   gap:5px;
+  padding: 1rem;
+  border-color: black;
+  border: solid;
+}
+input:focus{
+  outline: none;
 }

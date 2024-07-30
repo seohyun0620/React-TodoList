@@ -1,17 +1,17 @@
-.label{
+.Editorlabel{
   height: 4vw;
 }
 .input{
-  width: 30vw;
+  width: 35vw;
   height: 100%;
   padding: 0px 15px;
   border:2px solid rgb(212, 212, 212);
   border-radius: 10px;
 }
 .submitBtn{
-  width: 6vw;
+  width: 7vw;
   height: 100%;
-  margin-left: 10px;
+  margin-left: 0.5vw;
   border: none;
   border-radius: 10px;
   background-color: #67a71a;
