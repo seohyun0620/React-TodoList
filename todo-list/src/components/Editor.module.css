@@ -1,5 +1,6 @@
-.Editorlabel{
+.Editor{
   height: 4vw;
+  margin-bottom: 25px;
 }
 .input{
   width: 35vw;
@@ -8,7 +9,7 @@
   border:2px solid rgb(212, 212, 212);
   border-radius: 10px;
 }
-.submitBtn{
+.editorBtn{
   width: 7vw;
   height: 100%;
   margin-left: 0.5vw;
@@ -16,4 +17,10 @@
   border-radius: 10px;
   background-color: #67a71a;
   color: white;
+}
+.searchInput{
+  width: 45vw;
+  height: 5vh;
+  border-width: 0 0 2px 0;
+  border-color: rgb(212, 212, 212);
 }
