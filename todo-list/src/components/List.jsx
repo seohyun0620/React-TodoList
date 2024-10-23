@@ -1,12 +1,7 @@
 import styles from './List.module.css';
 
 function List({toDoList,onValueChange}){
-  // function handleClickDel(e) {
-  //     onValueChange(
-  //     toDoList.filter(a =>
-  //       a.text !==listItem.text
-  //     ))
-  // }
+
   return (
     <>
       <ul className={styles.List}>
@@ -23,7 +18,8 @@ function List({toDoList,onValueChange}){
               className={styles.delBtn}
               type="button"
               onClick={() => {
-                onValueChange(toDoList.filter((a) => a.text !== listItem.text));
+                onValueChange(toDoList.filter((a) => a.text !== listItem.text)); 
+                //삭제 기능(listItem.text와 text(임시 key)가 다른 toDoList배열을 생성한다”는 의미)
               }}
             >
               삭제

@@ -2,7 +2,7 @@ import styles from './Editor.module.css';
 import List from './List'
 import {useState} from 'react';
 
-function Editor({children}){
+function Editor(){
   const [todo,setTodo] = useState(''); //해야할 일:todo
   const [toDoList, setTodoList] = useState([]); //todo목록
 
