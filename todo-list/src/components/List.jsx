@@ -6,7 +6,7 @@ function List({toDoList,onValueChange}){
     <>
       <ul className={styles.List}>
         {toDoList.map((listItem) => (
-          <li className={styles.listItems} key={listItem.text}>
+          <li className={styles.listItems} key={listItem.id}>
             <input
               className={styles.checkbox}
               type="checkbox"
@@ -18,7 +18,7 @@ function List({toDoList,onValueChange}){
               className={styles.delBtn}
               type="button"
               onClick={() => {
-                onValueChange(toDoList.filter((a) => a.text !== listItem.text)); 
+                onValueChange(toDoList.filter((a) => a.id !== listItem.id)); 
                 //삭제 기능(listItem.text와 text(임시 key)가 다른 toDoList배열을 생성한다”는 의미)
               }}
             >
